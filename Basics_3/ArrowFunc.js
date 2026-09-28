@@ -15,7 +15,7 @@ const user =
 // user.username = "Sam"
 // user.WelcomeMessage()
 
-console.log(this);
+// console.log(this);
 
 // function porn()
 // {
@@ -48,12 +48,12 @@ const addTwo  = (num1, num2) =>
 // Another method
 
 
-// const addTwo = (num1, num2) => num1 + num2
+const addTwo = (num1, num2) => num1 + num2
 
-//                      //OR
+                     //OR
 
-// const addTwo = (num1, num2) => ( num1 + num2 )
+const addTwo = (num1, num2) => ( num1 + num2 )
 
-// const addTwo = (num1, num2) => ({username: "Pratham"})
+const addTwo = (num1, num2) => ({username: "Pratham"})
 
 console.log(addTwo(63, 6));
